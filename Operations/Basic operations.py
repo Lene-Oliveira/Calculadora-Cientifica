@@ -1,3 +1,4 @@
+#Basic four operations (+, -, / and *)
 #importing a library with the especific functions that will be needed
 import math
 
@@ -13,33 +14,20 @@ def divide(a, b):
  
 def multiply(a, b):
     return a*b
- 
-def square(a):
-    return a**2
- 
-def sqrt(a):
-    return math.sqrt(a)
- 
-def log(a):
-    return math.log(a)
- 
-def exponentiate(a, b):
-    return a**b
+
     
+  
     # create map
 function_map = {
     "add": add,
     "subtract": subtract,
     "divide": divide,
     "multiply": multiply,
-    "square": square,
-    "square root": sqrt,
-    "log": log,
-    "exponentiate": exponentiate
+
 }
 
 #ask the user for the desired opperation
-op = input("Which operation would you like to do? Add, subtract, divide, multiply, square, square root, log, or exponentiate? ")
+op = input("Which operation would you like to do? Add, subtract, divide or multiply? ")
 
 if op in ["square", "square root", "log"]:
     a = float(input("What number would you like to perform your operation on? "))

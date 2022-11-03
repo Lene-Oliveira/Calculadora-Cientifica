@@ -5,11 +5,11 @@ Scientific Calculator with Python without grafic interface.
 *Main functions:*
 
 
-■ Basic four operations (+, -, / & *);
+■ Basic four operations (+, -, / and *);
 
-■ Other commum operations (exponentiation & √);
+■ Other commum operations (exponentiation and √);
 
-■ Complex functions (log, cos, sin, tan & ᴨ);
+■ Complex functions (log, cos, sin, tan, e and ᴨ);
 
 ■ Fraction operations;
 
