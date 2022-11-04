@@ -13,7 +13,7 @@ function_map={
 "cos": cos,
 
 }
-op = input("Which operation would you like to do? log, cos, sin, tan, e or pi? ")
+op = input("Which operation would you like to do? log, cos, sin or tan? ")
 
 if op in [ "acos", ]:
     a = float(input("What number would you like to perform your operation on? "))
@@ -27,10 +27,6 @@ elif op in ["log"] :
 elif op in ["cos"] :
     a = float(input("what number would you like to calculate?"))
     print(math.acos(a))
-elif op in ["pi"] :
-    print(math.pi)
-elif op in ["e"] :
-    print(math.e)
 else:
     a = float(input("What is the first number? "))
     b = float(input("What is the second number? "))

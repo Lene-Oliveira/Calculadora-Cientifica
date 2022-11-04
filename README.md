@@ -1,5 +1,5 @@
 # Scientifc Calculator
-Scientific Calculator with Python without grafic interface.
+Scientific Calculator with Python with graphics.
 
 
 *Main functions:*
@@ -21,3 +21,5 @@ Scientific Calculator with Python without grafic interface.
 ■ Complex functions can't be used together;
 
 ■ The fraction function can only work with two variables at a time;
+
+For specific and detailed information, please refer to Data and RELEASENOTES.md;
