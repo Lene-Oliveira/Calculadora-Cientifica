@@ -27,12 +27,14 @@ function_map = {
 }
 
 #ask the user for the desired opperation
-op = input("Which operation would you like to do? Add, subtract, divide or multiply? ")
+op = input("Which operation would you like to do? Add, subtract, divide or multiply? Or do you wish to go back? ")
 
 if op in ["square", "square root", "log"]:
     a = float(input("What number would you like to perform your operation on? "))
     x = function_map[op](a)
     print(x)
+elif op in["Go back."] :
+    print ("loading....")
 else:
     a = float(input("What is the first number? "))
     b = float(input("What is the second number? "))
