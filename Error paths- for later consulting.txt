@@ -1,8 +1,0 @@
-File "c:\Users\franc\OneDrive\Documentos\Codes\Git & GitHub codes\Repository\Scientific Calculator\Calculadora-Cientifica\Operations\Complex functions.py", line 29, in <module>
-    print(math.acos(a))
-ValueError: math domain error
-
-Error in :
-"[elif op in ["cos"] :
-    a = float(input("what number would you like to calculate?"))
-    print(math.acos(a))]"
